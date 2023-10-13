@@ -13,13 +13,13 @@ var groupAnagrams = function (strings) {
 };
 //qq
 
-// Step 1: Parse Command Line Arguments
-const args = process.argv.slice(2);
+// Step 1: Parse command line arguments.
+const commandLineArguments = process.argv.slice(2);
 
-// Step 2: Group Anagrams using the provided function
-const groupedAnagrams = groupAnagrams(args);
+// Step 2: Group Anagrams using the provided function.
+const groupedAnagrams = groupAnagrams(commandLineArguments);
 
-// Step 3: Display the Result
+// Step 3: Display the results.
 groupedAnagrams.forEach((group, index) => {
   console.log(`Anagram Group ${index + 1}: ${group.join(', ')}`);
 });

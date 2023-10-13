@@ -1,0 +1,13 @@
+/**
+ * @param {string[]} strings
+ * @return {string[][]}
+ */
+var groupAnagrams = function (strings) {
+  let map = {};
+  for (let str of strings) {
+    let frankenString = str.split('').sort().join('');
+    if (!map[frankenString]) map[frankenString] = [];
+    map[frankenString].push(str);
+  }
+  return Object.values(map);
+};
