@@ -1,11 +1,23 @@
+import sys
 from collections import defaultdict
 
-class Solution:
-    def groupAnagrams(self, strs):
-        anagram_map = defaultdict(list)
-        
-        for word in strs:
-            sorted_word = ''.join(sorted(word))
-            anagram_map[sorted_word].append(word)
-        
-        return list(anagram_map.values())
+def groupAnagrams(strs):
+  """Groups anagrams together.
+
+  Args:
+    strs: A list of strings.
+
+  Returns:
+    A list of lists of strings, where each sublist contains anagrams.
+  """
+
+  groups = defaultdict(list)
+  for str in strs:
+    sorted_str = ''.join(sorted(str))
+    groups[sorted_str].append(str)
+  return list(groups.values())
+
+if __name__ == '__main__':
+  strs = sys.argv[1:]
+  groups = groupAnagrams(strs)
+  print(groups)
