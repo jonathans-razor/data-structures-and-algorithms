@@ -11,7 +11,6 @@ var groupAnagrams = function (strings) {
   }
   return Object.values(map);
 };
-//qq
 
 // Step 1: Parse command line arguments.
 const commandLineArguments = process.argv.slice(2);
