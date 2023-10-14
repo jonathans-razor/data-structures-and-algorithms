@@ -1,0 +1,2 @@
+    counter = collections.Counter(nums)
+    return [num for num, _ in counter.most_common(k)]
