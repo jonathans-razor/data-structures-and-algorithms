@@ -7,3 +7,4 @@ eventEmitter.on('lunch', () => {
 });
 
 eventEmitter.emit('lunch');
+eventEmitter.emit('lunch');
