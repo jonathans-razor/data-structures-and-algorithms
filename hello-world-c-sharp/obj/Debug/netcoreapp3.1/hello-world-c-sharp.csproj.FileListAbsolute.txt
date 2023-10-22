@@ -24,3 +24,16 @@ d:\Dropbox\IT\interview-code\hello-world-c-sharp\obj\Debug\netcoreapp3.1\hello-w
 d:\Dropbox\IT\interview-code\hello-world-c-sharp\obj\Debug\netcoreapp3.1\hello-world-c-sharp.dll
 d:\Dropbox\IT\interview-code\hello-world-c-sharp\obj\Debug\netcoreapp3.1\hello-world-c-sharp.pdb
 d:\Dropbox\IT\interview-code\hello-world-c-sharp\obj\Debug\netcoreapp3.1\hello-world-c-sharp.genruntimeconfig.cache
+d:\Dropbox\IT\dsa\hello-world-c-sharp\bin\Debug\netcoreapp3.1\hello-world-c-sharp.exe
+d:\Dropbox\IT\dsa\hello-world-c-sharp\bin\Debug\netcoreapp3.1\hello-world-c-sharp.deps.json
+d:\Dropbox\IT\dsa\hello-world-c-sharp\bin\Debug\netcoreapp3.1\hello-world-c-sharp.runtimeconfig.json
+d:\Dropbox\IT\dsa\hello-world-c-sharp\bin\Debug\netcoreapp3.1\hello-world-c-sharp.runtimeconfig.dev.json
+d:\Dropbox\IT\dsa\hello-world-c-sharp\bin\Debug\netcoreapp3.1\hello-world-c-sharp.dll
+d:\Dropbox\IT\dsa\hello-world-c-sharp\bin\Debug\netcoreapp3.1\hello-world-c-sharp.pdb
+d:\Dropbox\IT\dsa\hello-world-c-sharp\obj\Debug\netcoreapp3.1\hello-world-c-sharp.csprojAssemblyReference.cache
+d:\Dropbox\IT\dsa\hello-world-c-sharp\obj\Debug\netcoreapp3.1\hello-world-c-sharp.AssemblyInfoInputs.cache
+d:\Dropbox\IT\dsa\hello-world-c-sharp\obj\Debug\netcoreapp3.1\hello-world-c-sharp.AssemblyInfo.cs
+d:\Dropbox\IT\dsa\hello-world-c-sharp\obj\Debug\netcoreapp3.1\hello-world-c-sharp.csproj.CoreCompileInputs.cache
+d:\Dropbox\IT\dsa\hello-world-c-sharp\obj\Debug\netcoreapp3.1\hello-world-c-sharp.dll
+d:\Dropbox\IT\dsa\hello-world-c-sharp\obj\Debug\netcoreapp3.1\hello-world-c-sharp.pdb
+d:\Dropbox\IT\dsa\hello-world-c-sharp\obj\Debug\netcoreapp3.1\hello-world-c-sharp.genruntimeconfig.cache
