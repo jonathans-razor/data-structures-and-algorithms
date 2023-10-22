@@ -1,2 +1,2 @@
-from datetime import date
-print(date.today().strftime("%b-%d-%Y"))  
+from datetime import datetime
+print(datetime.now().strftime("%b-%d-%Y-%H-%M-%S"))  
