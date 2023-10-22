@@ -1,2 +1,3 @@
 from datetime import datetime
-print(datetime.now().strftime("%b-%d-%Y-%H-%M-%S"))  
+# Use AM/PM time format.
+print(datetime.now().strftime("%b-%d-%Y-%I-%M-%S-%p"))
