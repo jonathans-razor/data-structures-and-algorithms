@@ -1,7 +1,7 @@
 import sys
 
 if len(sys.argv) != 2:
-    print("Usage: python reverse_string.py <string>")
+    print("- Parameter(s) expected.")
     sys.exit(1)
 
 string = sys.argv[1]

@@ -16,7 +16,7 @@ func reverseString(str string) string {
 func main() {
 	args := os.Args[1:]
 	if len(args) == 0 {
-		fmt.Println("Usage: reverse <string>")
+    fmt.Println("- Parameter(s) expected.")
 		return
 	}
 

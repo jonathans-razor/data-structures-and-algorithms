@@ -16,6 +16,4 @@ function reverseString(str) {
   return reversedStr;
 }
 
-var reversedString = reverseString(inputString);
-console.log("Original: " + inputString);
-console.log("Reversed: " + reversedString);
+console.log(reverseString(inputString));
