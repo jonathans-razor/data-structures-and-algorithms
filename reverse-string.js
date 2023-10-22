@@ -1,7 +1,7 @@
 // Promput Used: Don't use the strArray.reverse method.
 // Check if a command-line argument is provided
 if (process.argv.length < 3) {
-  console.error("Please provide a string to reverse.");
+  console.error("- Parameter mssing. Provide a string to reverse.");
   process.exit(1); // Exit with an error code
 }
 

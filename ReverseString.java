@@ -2,7 +2,7 @@ public class ReverseString {
     public static void main(String[] args) {
         // Check if the user has passed in a command-line argument.
         if (args.length == 0) {
-            System.out.println("Usage: ReverseStringCommandLineArgs <string>");
+            System.out.println("- Parameter(s) missing.");
             System.exit(1);
         }
 
@@ -16,6 +16,6 @@ public class ReverseString {
         }
 
         // Print the reversed string to the console.
-        System.out.println("The reversed string is: " + reversedString);
+        System.out.println(reversedString);
     }
 }
