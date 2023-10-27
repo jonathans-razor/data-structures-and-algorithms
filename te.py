@@ -1,6 +1,6 @@
 import sys
 
-def reverseString(s):
+def reverseString(s: str) -> int:
     return s[::-1]
 
 if len(sys.argv) < 2:
