@@ -1,0 +1,9 @@
+Python - Table of Contents
+
+ .--.      .--.      .--.      .--.      .--.
+::::.\::::::::.\::::::::.\::::::::.\::::::::.\:::::
+      `--'      `--'      `--'      `--'      `--' 
+
+           File  Description
+ reverse-string  Reverse the passed in string.
+             te  Golden image template used for creating new batch files.

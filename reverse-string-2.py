@@ -1,10 +1,11 @@
 import sys
 
-def reverseString(s):
-    return s[::-1]
-
 if len(sys.argv) < 2:
     print("- Parameter(s) expected.")
     sys.exit(1)
 
-print(reverseString(sys.argv[1]))
+string = sys.argv[1]
+reversed_string = string[::-1]
+
+print(reversed_string)
+
