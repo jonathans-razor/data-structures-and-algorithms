@@ -5,5 +5,7 @@ Python - Table of Contents
       `--'      `--'      `--'      `--'      `--' 
 
            File  Description
+     lower-case  Lower case a string.
  reverse-string  Reverse the passed in string.
              te  Golden image template used for creating new batch files.
+     upper-case  Upper case a string.
