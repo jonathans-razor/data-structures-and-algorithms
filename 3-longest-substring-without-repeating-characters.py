@@ -6,14 +6,14 @@ def lengthOfLongestSubstring(s):
     :rtype: int
     """
     charSet = set()
-    l = 0
+    left = 0
     result = 0
     for r in range(len(s)):    
         while s[r] in charSet:
-            charSet.remove(s[l])
-            l += 1
+            charSet.remove(s[left])
+            left += 1
         charSet.add(s[r])
-        result = max(result, r - l + 1)
+        result = max(result, r - left + 1)
     return result
 
 if len(sys.argv) < 2:
@@ -21,4 +21,3 @@ if len(sys.argv) < 2:
     sys.exit(1)
 
 print(lengthOfLongestSubstring(sys.argv[1]))
-print('hi')
