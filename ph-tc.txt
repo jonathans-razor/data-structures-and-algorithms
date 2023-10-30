@@ -4,9 +4,11 @@ Python - Table of Contents
 ::::.\::::::::.\::::::::.\::::::::.\::::::::.\:::::
       `--'      `--'      `--'      `--'      `--' 
 
-              File  Description
-        lower-case  Lower case a string.
-raise-to-the-power  Raise to the power.
-    reverse-string  Reverse the passed in string.
-                te  Golden image template used for creating new batch files.
-        upper-case  Upper case a string.
+               File  Description
+-------------------  ----------------------------------------------------------------
+         lower-case  Lower case a string.
+ raise-to-the-power  Raise to the power.
+     reverse-string  Reverse the passed in string.
+                 te  Golden image template used for creating new batch files.
+string-manipulation  String manipulation.
+         upper-case  Upper case a string.
