@@ -1,0 +1,13 @@
+d:\Dropbox\IT\dsa\fizz-csharp\bin\Debug\netcoreapp3.1\fizz-csharp.exe
+d:\Dropbox\IT\dsa\fizz-csharp\bin\Debug\netcoreapp3.1\fizz-csharp.deps.json
+d:\Dropbox\IT\dsa\fizz-csharp\bin\Debug\netcoreapp3.1\fizz-csharp.runtimeconfig.json
+d:\Dropbox\IT\dsa\fizz-csharp\bin\Debug\netcoreapp3.1\fizz-csharp.runtimeconfig.dev.json
+d:\Dropbox\IT\dsa\fizz-csharp\bin\Debug\netcoreapp3.1\fizz-csharp.dll
+d:\Dropbox\IT\dsa\fizz-csharp\bin\Debug\netcoreapp3.1\fizz-csharp.pdb
+d:\Dropbox\IT\dsa\fizz-csharp\obj\Debug\netcoreapp3.1\fizz-csharp.csprojAssemblyReference.cache
+d:\Dropbox\IT\dsa\fizz-csharp\obj\Debug\netcoreapp3.1\fizz-csharp.AssemblyInfoInputs.cache
+d:\Dropbox\IT\dsa\fizz-csharp\obj\Debug\netcoreapp3.1\fizz-csharp.AssemblyInfo.cs
+d:\Dropbox\IT\dsa\fizz-csharp\obj\Debug\netcoreapp3.1\fizz-csharp.csproj.CoreCompileInputs.cache
+d:\Dropbox\IT\dsa\fizz-csharp\obj\Debug\netcoreapp3.1\fizz-csharp.dll
+d:\Dropbox\IT\dsa\fizz-csharp\obj\Debug\netcoreapp3.1\fizz-csharp.pdb
+d:\Dropbox\IT\dsa\fizz-csharp\obj\Debug\netcoreapp3.1\fizz-csharp.genruntimeconfig.cache

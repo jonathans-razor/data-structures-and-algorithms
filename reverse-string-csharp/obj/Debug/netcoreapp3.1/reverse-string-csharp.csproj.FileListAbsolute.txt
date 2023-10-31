@@ -1,0 +1,13 @@
+d:\Dropbox\IT\dsa\reverse-string-csharp\bin\Debug\netcoreapp3.1\reverse-string-csharp.exe
+d:\Dropbox\IT\dsa\reverse-string-csharp\bin\Debug\netcoreapp3.1\reverse-string-csharp.deps.json
+d:\Dropbox\IT\dsa\reverse-string-csharp\bin\Debug\netcoreapp3.1\reverse-string-csharp.runtimeconfig.json
+d:\Dropbox\IT\dsa\reverse-string-csharp\bin\Debug\netcoreapp3.1\reverse-string-csharp.runtimeconfig.dev.json
+d:\Dropbox\IT\dsa\reverse-string-csharp\bin\Debug\netcoreapp3.1\reverse-string-csharp.dll
+d:\Dropbox\IT\dsa\reverse-string-csharp\bin\Debug\netcoreapp3.1\reverse-string-csharp.pdb
+d:\Dropbox\IT\dsa\reverse-string-csharp\obj\Debug\netcoreapp3.1\reverse-string-csharp.csprojAssemblyReference.cache
+d:\Dropbox\IT\dsa\reverse-string-csharp\obj\Debug\netcoreapp3.1\reverse-string-csharp.AssemblyInfoInputs.cache
+d:\Dropbox\IT\dsa\reverse-string-csharp\obj\Debug\netcoreapp3.1\reverse-string-csharp.AssemblyInfo.cs
+d:\Dropbox\IT\dsa\reverse-string-csharp\obj\Debug\netcoreapp3.1\reverse-string-csharp.csproj.CoreCompileInputs.cache
+d:\Dropbox\IT\dsa\reverse-string-csharp\obj\Debug\netcoreapp3.1\reverse-string-csharp.dll
+d:\Dropbox\IT\dsa\reverse-string-csharp\obj\Debug\netcoreapp3.1\reverse-string-csharp.pdb
+d:\Dropbox\IT\dsa\reverse-string-csharp\obj\Debug\netcoreapp3.1\reverse-string-csharp.genruntimeconfig.cache
