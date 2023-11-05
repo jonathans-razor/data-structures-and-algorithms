@@ -6,9 +6,10 @@ Python - Table of Contents
 
                File  Description
 -------------------  ----------------------------------------------------------------
+   call-4-functions  Demonstrates how to make function calls.
          lower-case  Lower case a string.
  raise-to-the-power  Raise to the power.
      reverse-string  Reverse the passed in string.
-                 te  Golden image template used for creating new batch files.
 string-manipulation  String manipulation.
+                 te  Golden image template used for creating new batch files.
          upper-case  Upper case a string.
