@@ -17,9 +17,9 @@ def mySqrt(x: int) -> int:
       return middle
     elif middle * middle < x:
       start = middle + 1
-      res = middle
+      result = middle
     else:
       end = middle - 1
-  return res
+  return result
 
 print(mySqrt(int(sys.argv[1])))
