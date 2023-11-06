@@ -6,6 +6,7 @@ Python - Table of Contents
 
                File  Description
 -------------------  ----------------------------------------------------------------
+      add-2-numbers  Simple calculator.
    call-4-functions  Demonstrates how to make function calls.
          lower-case  Lower case a string.
  raise-to-the-power  Raise to the power.
