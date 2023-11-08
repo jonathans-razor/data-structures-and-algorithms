@@ -5,6 +5,7 @@ class ListNode:
         self.val = val
         self.next = next
 
+
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         dummy = ListNode(0)
@@ -22,7 +23,8 @@ class Solution:
             carry //= 10
         return dummy.next
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     # Define the linked lists.
     # Example: 342 + 465 = 807.
     l1 = ListNode(2, ListNode(4, ListNode(3)))
@@ -31,8 +33,8 @@ if __name__ == '__main__':
     # Parse command line arguments.
     if len(sys.argv) > 1:
         values = [int(x) for x in sys.argv[1:]]
-        l1_values = values[:len(values)//2]
-        l2_values = values[len(values)//2:]
+        l1_values = values[: len(values) // 2]
+        l2_values = values[len(values) // 2 :]
         l1 = ListNode(l1_values[0])
         current_node = l1
         for value in l1_values[1:]:
@@ -50,5 +52,5 @@ if __name__ == '__main__':
 
     # Print the result.
     while result:
-        print(result.val, end='')
+        print(result.val, end="")
         result = result.next
