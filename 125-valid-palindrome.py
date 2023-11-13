@@ -4,9 +4,9 @@ if len(sys.argv) < 2:
     print("- Parameter(s) expected.")
     sys.exit(1)
 
-def r(s: str) -> int:
+def isValidPalindrome(s: str) -> bool:
     s = s.lower()
-    s = ''.join(e for e in s if e.isalnum())
+    s = ''.join(randomVariableName for randomVariableName in s if randomVariableName.isalnum())
     s2 = s[::-1]
     print(s)
     print(s2)
@@ -14,4 +14,4 @@ def r(s: str) -> int:
         return True
     return False
 
-print(r(sys.argv[1]))
+print(isValidPalindrome(sys.argv[1]))
