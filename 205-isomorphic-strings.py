@@ -15,6 +15,9 @@ class Solution:
 
         for i in range(len(s)):
             if s[i] in mapping:
+                print(f"Mapping: {mapping}")
+                print("si: " + s[i])
+                print("ti: " + t[i])
                 if mapping[s[i]] != t[i]:
                     return False  # Mismatched mapping
             else:
