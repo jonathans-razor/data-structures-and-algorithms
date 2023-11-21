@@ -1,6 +1,7 @@
 import sys
 
 def isAnagram(s1: str, s2: str) -> bool: 
+  #Given two strings s and t, return true if t is an anagram of s, and false otherwise.
   return sorted(s1) == sorted(s2)
 
 if __name__ == "__main__":
