@@ -17,13 +17,13 @@ if __name__ == "__main__":
         print("- Parameter(s) expected.")
         sys.exit(1)
 
-    string1 = sys.argv[1]
-    string2 = sys.argv[2]
-    concatenatedString = concatenate2NumbersInto1(string1, string2)
+string1 = sys.argv[1]
+string2 = sys.argv[2]
+concatenatedString = concatenate2NumbersInto1(string1, string2)
 
-    reversed_string = concatenatedString[::-1]
+reversed_string = concatenatedString[::-1]
 
-    if concatenatedString == reversed_string:
-        print("True")
-    else:
-        print("False") 
+if concatenatedString == reversed_string:
+    print("True")
+else:
+    print("False") 
