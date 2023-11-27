@@ -9,7 +9,6 @@ if len(sys.argv) < 2:
 Return Value:
 '''
 def x(s: str) -> int:
-  #print("- ")
   return s[::-1]
 
 print(x(sys.argv[1]))
