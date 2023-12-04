@@ -27,7 +27,6 @@ def isMatch(s: str, p: str) -> bool:
                     ans = first_match and dp(i + 1, j + 1)
             memo[i, j] = ans
         return memo[i, j]
-
     return dp(0, 0)
 
 print(isMatch (sys.argv[1], sys.argv[2]))
