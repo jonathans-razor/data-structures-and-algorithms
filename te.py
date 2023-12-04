@@ -9,6 +9,6 @@ if len(sys.argv) < 2:
 Return Value:
 '''
 def x(s: str) -> int:
-  return s[::-1]
+  return
 
 print(x(sys.argv[1]))
