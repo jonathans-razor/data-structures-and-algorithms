@@ -1,0 +1,1 @@
+f.write(clipboard_contents)
