@@ -12,23 +12,22 @@ Given an input string s and a pattern p, implement regular expression matching w
 The matching should cover the entire input string (not partial).
 Return Value: boolean
 """
-class Solution:
-    def isMatch(self, s: str, p: str) -> bool:
-        memo = {}
+def isMatch(s: str, p: str) -> bool:
+    memo = {}
 
-        def dp(i, j):
-            if (i, j) not in memo:
-                if j == len(p):
-                    ans = i == len(s)
+    def dp(i, j):
+        if (i, j) not in memo:
+            if j == len(p):
+                ans = i == len(s)
+            else:
+                first_match = i < len(s) and p[j] in {s[i], "."}
+                if j + 1 < len(p) and p[j + 1] == "*":
+                    ans = dp(i, j + 2) or first_match and dp(i + 1, j)
                 else:
-                    first_match = i < len(s) and p[j] in {s[i], "."}
-                    if j + 1 < len(p) and p[j + 1] == "*":
-                        ans = dp(i, j + 2) or first_match and dp(i + 1, j)
-                    else:
-                        ans = first_match and dp(i + 1, j + 1)
-                memo[i, j] = ans
-            return memo[i, j]
+                    ans = first_match and dp(i + 1, j + 1)
+            memo[i, j] = ans
+        return memo[i, j]
 
-        return dp(0, 0)
+    return dp(0, 0)
 
-print(Solution().isMatch(sys.argv[1], sys.argv[2]))
+print(isMatch (sys.argv[1], sys.argv[2]))
