@@ -8,6 +8,8 @@ Python - Table of Contents
 -------------------  ----------------------------------------------------------------
       add-2-numbers  Simple calculator.
    call-4-functions  Demonstrates how to make function calls.
+               date  Current Date.
+          date-time  Current Date with Time.
          lower-case  Lower case a string.
  raise-to-the-power  Raise to the power.
      reverse-string  Reverse the passed in string.
