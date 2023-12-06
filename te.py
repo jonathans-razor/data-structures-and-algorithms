@@ -4,11 +4,11 @@ if len(sys.argv) < 2:
   print("- Parameter(s) expected.")
   sys.exit(1)
 
+def x(s: str) -> int:
 '''
 
 Return Value:
 '''
-def x(s: str) -> int:
   return
 
 print(x(sys.argv[1]))
