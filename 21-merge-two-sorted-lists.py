@@ -1,59 +1,35 @@
-# Definition for singly-linked list.
+import sys
+
+from typing import Optional
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
 
-
 class Solution:
-    def deleteDuplicates(self, head: ListNode) -> ListNode:
-        if not head or not head.next:
-            return head
-
-        current = head
-        while current.next:
-            if current.val == current.next.val:
-                current.next = current.next.next
+    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+        currentListNode = dummy = ListNode()
+        while list1 and list2:
+            if list1.val < list2.val:
+                currentListNode.next = list1
+                list1, currentListNode = list1.next, list1
             else:
-                current = current.next
-
-        return head
-
-
-def create_linked_list(data):
-    if not data:
-        return None
-    head = ListNode(data[0])
-    current = head
-    for val in data[1:]:
-        current.next = ListNode(val)
-        current = current.next
-    return head
-
-
-def print_linked_list(head):
-    current = head
-    while current:
-        print(current.val, end=" -> ")
-        current = current.next
-    print("None")
-
+                currentListNode.next = list2
+                list2, currentListNode = list2.next, list2
+        if list1 or list2:
+            currentListNode.next = list1 if list1 else list2
+        return dummy.next
 
 if __name__ == "__main__":
-    import sys
-
-    if len(sys.argv) < 2:
-        print("Usage: python leetcode83.py [list]")
-        sys.exit(1)
-
-    data = [int(val) for val in sys.argv[1:]]
-    head = create_linked_list(data)
-
-    solution = Solution()
-    new_head = solution.deleteDuplicates(head)
-
-    print("Original Linked List:")
-    print_linked_list(head)
-
-    print("\nLinked List after Removing Duplicates:")
-    print_linked_list(new_head)
+    l1 = ListNode(
+        int(sys.argv[1]), ListNode(int(sys.argv[2]), ListNode(int(sys.argv[3])))
+    )
+    l2 = ListNode(
+        int(sys.argv[4]), ListNode(int(sys.argv[5]), ListNode(int(sys.argv[6])))
+    )
+    s = Solution()
+    result = s.mergeTwoLists(l1, l2)
+    while result:
+        print(result.val, end=" ")
+        result = result.next
