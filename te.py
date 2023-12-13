@@ -4,12 +4,13 @@ if len(sys.argv) < 2:
   print("- Parameter(s) expected.")
   sys.exit(1)
 
-def x(s: str) -> int:
-'''
-
-Return Value:
-'''
-  return
+class Solution:
+    def x(s: str) -> int:
+        '''
+      
+        Return Value:
+        '''
+        return
 
 if __name__ == '__main__':
     nums = list(map(int, sys.argv[1].split(','))) if sys.argv[1] else []
