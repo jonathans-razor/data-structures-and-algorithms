@@ -8,7 +8,7 @@ class Solution:
     def x(s: str) -> int:
         '''
       
-        Return Value:
+        return value:
         '''
         return
 
