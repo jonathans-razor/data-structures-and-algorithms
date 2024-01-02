@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/S3xLVT419jfCU/l6EmIyI8t33jpycYuzZg0K+u7UqTGAqbMsu9PZJodkQzk6A0FZlHHODhSTc6nV/YeRM5PnQ==",
+  "dgSpecHash": "613TRRDhC6/slZBau5C/f0QV85p2XVG1Q1mtMjjYihJKXDUnaFOA2uJv7C7thYRhwOi6HmY1C2dSakgCox/qvA==",
   "success": true,
-  "projectFilePath": "d:\\Dropbox\\IT\\dsa\\hello-world-c-sharp\\hello-world-c-sharp.csproj",
+  "projectFilePath": "d:\\Dropbox\\IT\\dsa\\hello-world-csharp\\hello-world-c-sharp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
