@@ -6,7 +6,7 @@ namespace hello_world_c_sharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("- Hello world from c-sharp.");
+            Console.WriteLine("- Hello world from C#.");
         }
     }
 }
