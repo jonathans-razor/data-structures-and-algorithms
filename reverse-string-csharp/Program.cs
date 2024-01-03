@@ -15,8 +15,7 @@ namespace StringReversalApp
             string originalString = args[0];
             string reversedString = ReverseString(originalString);
 
-            Console.WriteLine($"Original String: {originalString}");
-            Console.WriteLine($"Reversed String: {reversedString}");
+            Console.WriteLine($"{reversedString}");
         }
 
         static string ReverseString(string input)
