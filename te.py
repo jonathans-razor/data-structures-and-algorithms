@@ -14,4 +14,7 @@ class Solution:
 
 if __name__ == "__main__":
     solution = Solution()
+    print(solution(int(sys.argv[1]))))
     print(solution(int(sys.argv[1]), int(sys.argv[2])))
+    print(solution(sys.argv[1]))
+    print(solution(sys.argv[1], sys.argv[2]))
