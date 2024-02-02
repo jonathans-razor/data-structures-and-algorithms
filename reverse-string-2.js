@@ -22,5 +22,6 @@ function reverseString(str) {
 }
 
 var reversedString = reverseString(inputString);
+
 console.log("Original: " + inputString);
 console.log("Reversed: " + reversedString);

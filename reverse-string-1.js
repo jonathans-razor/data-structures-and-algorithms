@@ -15,5 +15,6 @@ function reverseString(str) {
 // Example usage
 var originalString = "Hello, World!";
 var reversedString = reverseString(originalString);
+
 console.log("Original: " + originalString);
 console.log("Reversed: " + reversedString);
