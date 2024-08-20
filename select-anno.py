@@ -1,7 +1,7 @@
 """Example of preparation with rdflib, JSON-LD manip with PyLD."""
 from rdflib import Graph, URIRef
 from rdflib.namespace import Namespace, RDF
-from rdflib_pyld_compat import  
+from rdflib_pyld_compat import pyld_json_from_rdflib_graph
 from pyld import jsonld
 import json
 import sys
