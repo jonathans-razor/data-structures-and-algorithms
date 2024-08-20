@@ -6,8 +6,8 @@ def create_jsonld():
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "John Doe",
-        "jobTitle": "Software Engineer",
-        "telephone": "(123) 456-7890",
+        "jobTitle": "Ocupational Therapist",
+        "telephone": "(123) 867-5309",
         "url": "http://www.johndoe.com"
     }
     return jsonld_document
