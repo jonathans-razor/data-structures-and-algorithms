@@ -1,3 +1,6 @@
+'''
+Even though this code seems to work, the flattened version doesn't have the graph keyword.
+'''
 import requests
 import json
 from pyld import jsonld
