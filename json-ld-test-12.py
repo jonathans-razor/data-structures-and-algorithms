@@ -2,7 +2,7 @@ import requests
 import json
 
 def fetch_users():
-    url = "https://jsonplaceholder.typicode.com/users/1"
+    url = "https://jsonplaceholder.typicode.com/users"
     response = requests.get(url)
     
     if response.status_code == 200:
