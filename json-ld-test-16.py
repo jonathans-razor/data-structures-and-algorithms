@@ -4,7 +4,7 @@ from pyld import jsonld
 
 def fetch_and_expand_jsonld():
     # Step 1: Make a GET request to the JSONPlaceHolder Users API
-    response = requests.get("https://jsonplaceholder.typicode.com/users/1")
+    response = requests.get("https://jsonplaceholder.typicode.com/users")
     
     # Step 2: Check if the request was successful
     if response.status_code == 200:
