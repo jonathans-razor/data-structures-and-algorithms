@@ -12,7 +12,7 @@ import sys
 import json
 
 def fetch_data(endpoint):
-    url = f"https://jsonplaceholder.typicode.com/{endpoint}"
+    url = "https://jsonplaceholder.typicode.com/users"
     response = requests.get(url)
     return response.json()
 

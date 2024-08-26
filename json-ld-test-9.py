@@ -4,7 +4,7 @@ import json
 
 # Function to fetch data from Jsonplaceholder API
 def fetch_data():
-    response = requests.get('https://jsonplaceholder.typicode.com/todos/1')
+    response = requests.get('https://jsonplaceholder.typicode.com/users')
     return response.json()
 
 # Function to convert data to JSON-LD format
@@ -30,7 +30,7 @@ def main():
 
     # Compacted format
     compacted = jsonld.compact(jsonld_data, jsonld_data['@context'])
-    print("Compacted JSON-LD:")
+    print("\nCompacted JSON-LD:")
     print(json.dumps(compacted, indent=2))
 
     # Expanded format
